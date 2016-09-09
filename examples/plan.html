@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+</head>
+<body>
+    <button id="click-1">First Click</button>
+    <div id="first-click-result" style="display: none;">
+        <p>Hey, you clicked the first button! Here's another one for you!!</p>
+        <button id="click-2">Second Click</button>
+    </div>
+    <div id="second-click-result" style="display: none;">
+        <p>Hey, you clicked the second button! Here's another one for you!!</p>
+        <button id="click-3">Third Click</button>
+    </div>
+    <div id="third-click-result" style="display: none">
+        <p>You did it!!</p>
+    </div>
+    <script type="text/javascript">
+        $('#click-3').click(function(){$('#third-click-result').show()});
+        $('#click-2').click(function(){$('#second-click-result').show()});
+        $('#click-1').click(function(){$('#first-click-result').show()});
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "eschrade/magetitans",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Kevin Schroeder",
+      "email": "kschroeder@mirageworks.com"
+    }
+  ],
+  "require": {
+    "magium/magento": "^0.5.18"
+  }
+}
